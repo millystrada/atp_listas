@@ -23,12 +23,9 @@ int main(){
     printf("Este programa verifica se um número é palíndromo. Digite um número inteiro: ");
     scanf("%d", &num);
     if(ehPalindromo(num))
-    {
         printf("É palíndromo!");
-    }
     else
-    {
         printf("Não é palíndromo!");
-    }
+    getchar();
     return 0;
 }
