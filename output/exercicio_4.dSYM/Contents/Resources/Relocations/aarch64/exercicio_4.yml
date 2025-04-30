@@ -1,0 +1,8 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/laura.strada/Desktop/mocks json/atp1/lista_5/output/exercicio_4'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: __Z8eh_primoi, symObjAddr: 0x0, symBinAddr: 0x100003DE8, symSize: 0xA0 }
+  - { offsetInCU: 0x41, offset: 0x41, size: 0x8, addend: 0x0, symName: __Z8eh_primoi, symObjAddr: 0x0, symBinAddr: 0x100003DE8, symSize: 0xA0 }
+  - { offsetInCU: 0x89, offset: 0x89, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0xA0, symBinAddr: 0x100003E88, symSize: 0x9C }
+...
