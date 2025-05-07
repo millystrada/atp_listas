@@ -1,2 +1,2 @@
-# atp_lista_5
-files with the solved exercises from the fifth list of Algorithms and Programming Techniques I
+# atp_lista
+files with the solved exercises from the lists of Algorithms and Programming Techniques I
