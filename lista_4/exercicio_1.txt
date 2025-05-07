@@ -1,0 +1,28 @@
+a) 
+int c, estaVariavel, q76354, numero;
+
+b) 
+int inteiro;
+printf("Digite um número inteiro: ");
+sacnf("%d", &inteiro);
+
+c) 
+int a;
+sacnf("%d", &a);
+
+d)
+if(numero != 7) {
+  printf("A variável numero não é igual a 7");
+}
+
+e) 
+printf("Este é um programa em C.");
+
+f)
+printf("Este é um programa em C\n.");
+
+g) 
+printf("Este\né\num\nprograma\nem\nC\n.");
+
+h)
+printf("Este\té\tum\tprograma\tem\tC\t.");

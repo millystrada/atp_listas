@@ -1,0 +1,27 @@
+
+algoritmo "verifica aprovação"
+
+inicio
+    var nota1, nota2, nota3, media: real
+
+    escreva("Esse algoritmo verifica se o aluno está aprovado de acordo com suas notas em três provas de mesmo peso.")
+
+    escreva("Digite a primeira nota: ")
+    leia(nota1)
+
+    escreva("Digite a segunda nota: ")
+    leia(nota2)
+
+    escreva("Digite a terceira nota: ")
+    leia(nota3)
+
+    media = (nota1 + nota2 + nota3) / 3
+    
+    escreva("Média do aluno: ", media)
+    
+    se media >= 6.0 então
+     escreva("Aluno aprovado!")
+    senão
+     escreva("Aluno reprovado.")
+
+fimalgoritmo

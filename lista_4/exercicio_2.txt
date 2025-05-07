@@ -1,0 +1,35 @@
+a)
+faltam % antes de d e & antes de valor.
+sacanf("%d", &valor);
+
+b) 
+\n está fora das aspas e está faltando a variavel do produto.
+printf("o produto de %d e %d é %d\n", x, y, z);
+
+c)
+somaDosNumeros é a variável que deveria receber a soma entre as duas outras.
+somaDosNumeros = primeiroNumero + segundoNumero
+
+d)
+os simbolos = e > estão com posições invertidas e == está sendo usado para atribuir valor, em vez de =.
+if(numero >= maior)
+  maior = numero;
+
+e) 
+está faltando & antes de umInteiro e está escrito Scanf em vez de scanf.
+sacnf("%d", &umInteiro);
+
+f) está correto
+
+g) 
+= está sendo para comparar valores, em vez de ==, e está faltando abrir as aspas.
+if(x == y)
+  printf("%d é igual a %d\n", x, y);
+
+h)
+está escrito print em vez de printf.
+printf("A soma é %d\n", y + x);
+
+i) 
+esta escrito Printf em vez de printf, está faltando fechar as aspas e há & antes de valor.
+printf("O valor que você digitou é: %d\n", valor);

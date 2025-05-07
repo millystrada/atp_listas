@@ -1,0 +1,43 @@
+a) 
+for(contador = 1; i <= 99; contador++)
+{
+    if(contador % 2 != 0)
+    {
+        soma += contador;
+    }
+}
+
+b)
+float valor = 333.546372;
+ 
+printf("%15.1f\n", valor);
+printf("%15.2f\n", valor);
+printf("%15.3f\n", valor);
+printf("%15.4f\n", valor);
+printf("%15.5f\n", valor);
+
+c)
+int valor = pow(2.5, 3);
+
+printf("%10.2f", valor);
+
+d)
+x = 1;
+while(x <= 20) {
+    printf("%d", x);
+    if(x % 5 == 0){
+        printf("\n");
+    } 
+    x++;
+} 
+
+e)
+for(x = 1; x <= 20; x++){
+    printf("%d", x);
+    if(x % 5 == 0){
+        printf("\n");
+    }
+}
+
+
+
