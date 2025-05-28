@@ -19,16 +19,22 @@ void imprimeInterseccao(char vetor1[], char vetor2[], int t){
     {
         for(int j = 0; j < t; j++)
         {
-            if(vetor1[i] == vetor2[j] && !existeNoVetor(vetor1[i])) 
+            if(vetor1[i] == vetor2[j] && !existeNoVetor(vetor1[i], comuns, t)) 
             {
-                comum[indiceComuns] = vetor1[i];
+                comuns[indiceComuns] = vetor1[i];
                 indiceComuns++;
             }
         }
     }
-    for(int i = 0; i <= indiceComuns; i++)
+    if(indiceComuns == 0)
     {
-        printf("O elemento %c é comum aos dois vetores.\n", vetor1[i]);
+        printf("Não existem elementos comuns nos vetores.");
+    }
+    else {
+       for(int i = 0; i < indiceComuns; i++)
+       {
+         printf("O elemento %c é comum aos dois vetores.\n", comuns[i]);
+       }
     }
 }
 
