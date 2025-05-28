@@ -2,8 +2,9 @@
 triple:          'arm64-apple-darwin'
 binary-path:     '/Users/laura.strada/Desktop/mocks json/atp1/listas/lista_7/output/exercicio_4'
 relocations:
-  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: __Z18imprimeInterseccaoPcS_i, symObjAddr: 0x0, symBinAddr: 0x100003BEC, symSize: 0xDC }
-  - { offsetInCU: 0x41, offset: 0x41, size: 0x8, addend: 0x0, symName: __Z18imprimeInterseccaoPcS_i, symObjAddr: 0x0, symBinAddr: 0x100003BEC, symSize: 0xDC }
-  - { offsetInCU: 0xBD, offset: 0xBD, size: 0x8, addend: 0x0, symName: __Z7leVetoriPcS_, symObjAddr: 0xDC, symBinAddr: 0x100003CC8, symSize: 0xA0 }
-  - { offsetInCU: 0x11D, offset: 0x11D, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x17C, symBinAddr: 0x100003D68, symSize: 0x14C }
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: __Z13existeNoVetorcPci, symObjAddr: 0x0, symBinAddr: 0x1000039F4, symSize: 0x84 }
+  - { offsetInCU: 0x41, offset: 0x41, size: 0x8, addend: 0x0, symName: __Z13existeNoVetorcPci, symObjAddr: 0x0, symBinAddr: 0x1000039F4, symSize: 0x84 }
+  - { offsetInCU: 0xA5, offset: 0xA5, size: 0x8, addend: 0x0, symName: __Z18imprimeInterseccaoPcS_i, symObjAddr: 0x84, symBinAddr: 0x100003A78, symSize: 0x21C }
+  - { offsetInCU: 0x166, offset: 0x166, size: 0x8, addend: 0x0, symName: __Z7leVetoriPcS_, symObjAddr: 0x2A0, symBinAddr: 0x100003C94, symSize: 0xA0 }
+  - { offsetInCU: 0x1C6, offset: 0x1C6, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x340, symBinAddr: 0x100003D34, symSize: 0x14C }
 ...
