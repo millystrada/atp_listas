@@ -17,11 +17,16 @@ int main() {
             printf("Digite o %d° elemento do vetor: ", i+1);
             scanf("%d", &v[i]);
         }
+        printf("Original: ");
+        for(int i = 0; i < tamanho; i++){
+            printf("%d ", v[i]);
+        }
         int metadeT = (int) tamanho / 2;
         v = (int*) realloc(v, metadeT * sizeof(int));
         if(v != NULL) {
+            printf("\nMetade: ");
             for(int i = 0; i < metadeT; i++){
-                printf("%d", v[i]);
+                printf("%d ", v[i]);
             }
         }
         else {
