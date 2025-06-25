@@ -1,0 +1,7 @@
+======= BOLETO =======
+CachorroQuente x3 - R$ 36.00
+Refrigerante x1 - R$ 5.00
+Sobremesa x2 - R$ 17.50
+-----------------------
+TOTAL: R$ 58.50
+=======================

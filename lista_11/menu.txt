@@ -1,0 +1,6 @@
+5
+Pizza 25.50
+CachorroQuente 12.00
+Refrigerante 5.00
+Salada 10.00
+Sobremesa 8.75
